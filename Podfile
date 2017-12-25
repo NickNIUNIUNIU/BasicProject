@@ -3,23 +3,25 @@
 
 target 'BasicProject' do
   
-pod 'AFNetworking',
+pod 'AFNetworking'
 pod 'Masonry'
 pod 'FMDB'
-pod 'SDWebImage/GIF'
-pod 'JSONModel'
+pod 'VTMagic'
+pod 'DZNEmptyDataSet' 
+pod 'MJExtension’
+pod 'YYKit'
+pod 'SDWebImage'
 #pod 'Toast', '~> 3.1.0'
 pod 'MJRefresh'
-pod 'MBProgressHUD',
-#pod 'XHLaunchAd'
-#pod 'FLAnimatedImage', '~> 1.0'
+pod 'MBProgressHUD'
+pod 'SVProgressHUD'
+pod 'XHLaunchAd' #广告
+pod 'FLAnimatedImage'
 pod 'UMengUShare/UI'
 pod 'UMengUShare/Social/Sina'
 pod 'UMengUShare/Social/WeChat'
 pod 'UMengUShare/Social/QQ'
 pod 'UMengAnalytics'
-
-platform :ios, '8.0'
 pod 'JPush'
 
 end
